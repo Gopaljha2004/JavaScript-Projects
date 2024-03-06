@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+   
+}
+
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+}
+
+.container p{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 22px;
+
+}
+
+.container input{
+   width: 100%;
+   margin-bottom: 25px;
+   height: 45px;
+   padding: 10px;
+
+}
+
+.container button{
+   width: 100%;
+   padding: 8px;
+   background-color: #7A23D1;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.imgBox{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+
+}
+
+
+.imgBox img{
+    width: 100%;
+    padding: 10px;
+
+}
+.imgBox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+
+}
+
+.error{
+    animation: shake 0.1s linear 10 ;
+    border: 2px solid red;
+
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateX(-5px);
+        transform: translateY(-5px);
+
+
+    }
+    50%{
+        transform: translateX(0);
+        transform: translateY(0);
+
+    }
+    75%{
+        transform: translateX(5px);
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+}
+
+
