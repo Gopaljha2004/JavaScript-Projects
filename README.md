@@ -12,3 +12,5 @@ Added Simple Calculator build by using html css javascript.
 Added Age Calculator by using html css javascript
 
 Added Toast Notification made by using html css javascript
+
+Added Text to voice Converter made by using html css jacscript
