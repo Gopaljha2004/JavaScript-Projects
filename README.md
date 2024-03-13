@@ -18,3 +18,6 @@ Added Text to voice Converter made by using html css jacscript
 Added Digital clock code 
 
 Added Stop Watch Code
+
+Added Show Password Strength code
+
