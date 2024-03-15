@@ -23,3 +23,6 @@ Added Show Password Strength code
 
 Added Mini Calendar code
 
+Added PopUp Message code
+
+
