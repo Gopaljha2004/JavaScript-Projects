@@ -21,3 +21,5 @@ Added Stop Watch Code
 
 Added Show Password Strength code
 
+Added Mini Calendar code
+
