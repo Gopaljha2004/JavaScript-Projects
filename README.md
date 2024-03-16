@@ -25,4 +25,5 @@ Added Mini Calendar code
 
 Added PopUp Message code
 
+Added Image Gallery code
 
