@@ -23,6 +23,8 @@ Added Show Password Strength code
 
 Added Mini Calendar code
 
+Added Select Menu code
+
 Added PopUp Message code
 
 Added Image Gallery code
