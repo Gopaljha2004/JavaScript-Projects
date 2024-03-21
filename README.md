@@ -29,3 +29,5 @@ Added PopUp Message code
 
 Added Image Gallery code
 
+Added Random Password Generator code
+
