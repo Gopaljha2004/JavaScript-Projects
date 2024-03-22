@@ -27,6 +27,8 @@ Added Select Menu code
 
 Added PopUp Message code
 
+Added Horizonatal Scrolling Gallery code
+
 Added Image Gallery code
 
 Added Random Password Generator code
