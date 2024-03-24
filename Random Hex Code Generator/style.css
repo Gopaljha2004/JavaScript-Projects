@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #ADCAD6;
+}
+
+
+
+.container {
+    background-color: #4d4f58;
+    width: 60vmin;
+    padding: 2.5em 2em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 3vmin;
+    border-radius: 10px;
+}
+
+#output-color {
+    position: relative;
+    height: 30vmin;
+    width: 30vmin;
+    border: 0.5em solid #f5f5f5;
+    border-radius: 50%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+span {
+    display: block;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background-color: rgb(97, 199, 97);
+    border-radius: 50%;
+}
+
+.show-color {
+    animation: pop 0.8s;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+input[type="text"] {
+    width: 100%;
+    background-color: transparent;
+    border: 2.5px dashed #f5f5f5;
+    font-size: 1.3rem;
+    padding: 0.8em 0;
+    margin: 1em 0;
+    border-radius: 8px;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns button {
+    font-size: 1em;
+    padding: 0.8em 1.7em;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#gen-btn {
+    background-color: #18f98f;
+    color: #202229;
+    border: none;
+    outline: none;
+}
+
+#copy-btn {
+    border: 3px solid #18f98f;
+    background-color: transparent;
+    color: #18f98f;
+}
+
+.custom-alert {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    
+}
+
+.custom-alert.active {
+    top: 0;
+    opacity: 1;
+    top: 5%;
+    left: 50%;
+}
