@@ -35,3 +35,5 @@ Added Random Password Generator code
 
 Added Image Comparison Slider code
 
+Random Hex Code Generator code
+
