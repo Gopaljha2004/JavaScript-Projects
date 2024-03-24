@@ -33,3 +33,5 @@ Added Image Gallery code
 
 Added Random Password Generator code
 
+Added Image Comparison Slider code
+
