@@ -39,3 +39,5 @@ Added Image Comparison Slider code
 
 Random Hex Code Generator code
 
+Added OTP Generator  code
+
