@@ -33,6 +33,8 @@ Added Image Gallery code
 
 Added Random Password Generator code
 
+Added RGB Color Slider code 
+
 Added Image Comparison Slider code
 
 Random Hex Code Generator code
