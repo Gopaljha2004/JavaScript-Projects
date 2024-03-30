@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+#alert-btn {
+  cursor: pointer;
+}
+#product-alert {
+  width: 350px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.product-info {
+  display: flex;
+}
+.product-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.message {
+  font-size: 16px;
+}
+.time {
+  font-size: 14px;
+  margin-top: 16px;
+  color: #a0a0a0;
+}
+#close-btn {
+  background-color: transparent;
+  color: red;
+  border: none;
+  outline: none;
+}
