@@ -41,3 +41,5 @@ Random Hex Code Generator code
 
 Added OTP Generator  code
 
+Added Fake Sales Notification code
+
