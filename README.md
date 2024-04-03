@@ -37,6 +37,8 @@ Added RGB Color Slider code
 
 Added Image Comparison Slider code
 
+Added Word Counter Tool code
+
 Random Hex Code Generator code
 
 Added OTP Generator  code
